@@ -1,0 +1,65 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  background-color:	#EEE8D8;  
+}
+
+#me {
+  border-radius: 10px;
+}
+
+#about, #footer {
+  background: white;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  background: url('./img/charlotte2.jpg') no-repeat center center fixed;
+  display: table;
+  height: 600px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#projects {
+  background: url('./img/charlotte2.jpg') no-repeat center center fixed;
+  display: table;
+  height: 600px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  
+}
+
+
+
+.pad-section{
+  padding:50px;
+}
+
+.pad section img {
+  width: 100%;
+}
+
+
+
