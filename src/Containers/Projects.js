@@ -55,6 +55,44 @@ export default class Projects extends Component {
                                 <div className = "col-md-1"></div>
                                 <div className = "col-md-3 text-left">
                                     <div className = "panel-header">
+                                        <h2>RollPG</h2>
+                                    </div>
+                                    <div>
+                                        <img 
+                                            src= {require("../img/Roll.png")} 
+                                            className="img-responsive img-rounded" 
+                                            height="220px" 
+                                            width="220px" 
+                                            alt="Responsive image"
+                                            />
+                                    </div>
+                                </div>
+                                <div className = "col-md-7 text-left">
+                                    <div className = "panel-header">
+                                        <h3>Team Project</h3>
+                                    </div>
+                                    <div>
+                                        <p>RollPG is a gaming companion application meant to streamline 
+                                            the complex mathematical processes that drive tabletop role 
+                                            playing games. The application allows users to create characters, 
+                                            dungeon masters to create enemies, and for all the math behind 
+                                            the battle and encounter mechanics to be calculated online, 
+                                            instantly. This allows a session to move faster, and for the focus 
+                                            to be on the storytelling aspect of the activity. Also by using 
+                                            Socket IO, a gaming session can be facilitated over vast distances.  <br/>
+                                             Developer in a team of five.</p>
+                                        <a href = {"https://evening-dawn-72143.herokuapp.com/"}>Link</a>
+                                    </div>
+                                </div>   
+                                <div className = "col-md-1"></div>                         
+                            </div>
+                        </div>                        
+                        <br/>
+                        <div className = "panel-body">
+                            <div className = "row">
+                                <div className = "col-md-1"></div>
+                                <div className = "col-md-3 text-left">
+                                    <div className = "panel-header">
                                         <h2>Sous</h2>
                                     </div>
                                     <div>
