@@ -11,6 +11,13 @@ body, html {
   background-color:	#EEE8D8;  
 }
 
+@media only screen and (max-width: 600px) {
+  #me, #lang, #img-lang {
+    display: none;
+  }
+} 
+
+
 #me {
   border-radius: 10px;
 }

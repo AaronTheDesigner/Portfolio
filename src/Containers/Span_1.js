@@ -18,8 +18,8 @@ export default class Spanone extends Component {
                         JavaScript, MongoDB, SQL, Node, Express, and Git. My strongest language is JavaScript, and my favorite libraries 
                         are React, Redux, and Axios, with an emerging interest in Angular and Socket.io.
                     </div>
-                    <h3 className = "text-center">Languages</h3>
-                    <div className = "image text-center">
+                    <h3 className = "text-center" id = "lang">Languages</h3>
+                    <div className = "image text-center" id = "img-lang">
                         <img src = {require("../img/JS.jpg")} alt = "JavaScript" height="110px" width="100px"/> &nbsp; &nbsp;
                         <img src = {require("../img/css.png")} alt = "JavaScript" height="120px" width="120px"/> &nbsp; &nbsp;
                         <img src = {require("../img/html.png")} alt = "JavaScript" height="120px" width="120px"/> &nbsp; &nbsp;
