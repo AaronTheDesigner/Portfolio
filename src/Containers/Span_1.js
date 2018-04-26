@@ -6,7 +6,7 @@ export default class Spanone extends Component {
         return (
             <div id = "about" className = "pad-section">
                 <div className = "container">
-                    <div class = "row">
+                    <div className = "row">
                         <h1 className = "text-center">About Me</h1>
                         <div className = "text-center">
                         <img id = "me" src = {require("../img/Aaron.jpg")} alt = "JavaScript" height="440px" width="300px"/>
